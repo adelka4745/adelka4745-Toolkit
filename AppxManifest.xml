@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+         xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+         xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10">
+  
+  <Identity Name="adelka4745.Toolkit"
+            Publisher="CN=adelka4745"
+            Version="1.0.0.0" />
+  
+  <Properties>
+    <DisplayName>adelka4745 Toolkit</DisplayName>
+    <PublisherDisplayName>adelka4745</PublisherDisplayName>
+    <Logo>assets\logo.png</Logo>
+  </Properties>
+  
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.19041.0" />
+  </Dependencies>
+  
+  <Resources>
+    <Resource Language="ru-ru" />
+    <Resource Language="en-us" />
+  </Resources>
+  
+  <Applications>
+    <Application Id="App"
+                 StartPage="index.html">
+      <uap:VisualElements DisplayName="adelka4745 Toolkit"
+                          Square150x150Logo="assets\Square150x150Logo.png"
+                          Square44x44Logo="assets\Square44x44Logo.png"
+                          Description="Web application packaged as MSIX"
+                          BackgroundColor="#1e1e1e">
+        <uap:SplashScreen Image="assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+</Package>
